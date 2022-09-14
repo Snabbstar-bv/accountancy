@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u55aQaCieUNPW7z+leKNCDhRQvUNSqE2njkcTEkQuq8=",
+  "Hash": "HU8REi9Daf4IogMA2Fpsx92bZIUoRuaGJcb1fAwuAXQ=",
   "Source": "Snabbstar_Education",
   "BasePath": "_content/Snabbstar_Education",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/obj/Debug/net6.0/scopedcss/projectbundle/Snabbstar_Education.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/.DS_Store",
+      "SourceId": "Snabbstar_Education",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/",
+      "BasePath": "_content/Snabbstar_Education",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/css/site.css",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/lib/.DS_Store",
+      "SourceId": "Snabbstar_Education",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/",
+      "BasePath": "_content/Snabbstar_Education",
+      "RelativePath": "lib/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/.DS_Store"
     },
     {
       "Identity": "/Users/carlos9567/Projects/Snabbstar_Education/Snabbstar_Education/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
