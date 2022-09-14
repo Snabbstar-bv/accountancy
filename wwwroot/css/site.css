@@ -1,0 +1,89 @@
+﻿* {
+    color: rgba(167, 119, 24,0.8) !important;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: rgba(172, 142, 120, 0.1);
+}
+
+.navbar_container_css {
+    border-bottom-left-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgba(242, 242, 247) !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+
+.nav-css {
+    height: 3.2rem !important;
+    margin-left: 0.5rem !important;
+    border-radius: 25px;
+    box-shadow: rgba(167, 119, 24,0.45) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btn-css {
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(167, 119, 24,0.45) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btn-css:hover {
+    border-radius: 15px;
+    border: 1px solid rgba(167, 119, 24,0.4);
+    background-color: rgba(242, 242, 247);
+    color: rgba(220, 180, 80, 1) !important;
+    color: rgba(220, 180, 80, 1) !important;
+}
+
+.btn_css_left {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-shadow: rgba(167, 119, 24,0.45) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btn_css_left:hover {
+    border-radius: 25px;
+    border: 1px solid rgba(167, 119, 24,0.4);
+    background-color: rgba(242, 242, 247);
+    color: rgba(220, 180, 80, 1) !important;
+}
+
+.col_left {
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgba(242, 242, 247);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgba(167, 119, 24,0.2);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.col_right {
+    max-height: 51rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgba(242, 242, 247);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgba(167, 119, 24,0.2);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+

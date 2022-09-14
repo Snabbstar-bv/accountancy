@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Domotica Page";
+    List<sensor_heat> front_sensor = (List<sensor_heat>)ViewData["front_sensor"];
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-2 col_left">
+            <a class="btn btn-light btn_css_left">Heat_Sensor</a>
+            <a class="btn btn-light btn_css_left">Light_Sensor</a>
+            <a class="btn btn-light btn_css_left">Motion_Sensor</a>
+        </div>
+        <div class="col-1 col_middle">
+
+        </div>
+        <div class="col-9 col_right">
+            <table class="table w-100">
+                <thead>
+                    <tr>
+                        <th scope="col">#Snabbstar#</th>
+                        <th scope="col">name</th>
+                        <th scope="col">data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (sensor_heat tmpSensor in front_sensor)
+                    {
+                        <tr>
+                            <td class="display-10">@tmpSensor.id</td>
+                            <td class="display-10">@tmpSensor.name</td>
+                            <td class="display-10">@tmpSensor.data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
